@@ -1,13 +1,13 @@
 {
-  "name": "template-rename",
+  "name": "weather",
   "version": "1.0.0",
-  "description": "",
+  "description": "* _List all_\r * _the major technologies_\r * _you used in your project_\r * _here_",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode development",
     "start": "npm run build & webpack-dev-server --open --mode development",
     "lint": "eslint src/*.js",
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +17,7 @@
     "@babel/plugin-transform-modules-commonjs": "^7.6.0",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.2.0",
+    "dotenv-webpack": "^2.0.0",
     "eslint": "^6.3.0",
     "eslint-loader": "^3.0.0",
     "file-loader": "^2.0.0",
@@ -32,5 +33,13 @@
     "bootstrap": "^5.0.1",
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishops/Weather.git"
+  },
+  "bugs": {
+    "url": "https://github.com/krishops/Weather/issues"
+  },
+  "homepage": "https://github.com/krishops/Weather#readme"
 }
